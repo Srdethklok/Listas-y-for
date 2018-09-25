@@ -1,4 +1,9 @@
-mi_lista = ["despertar", "desayunar", "salir a trabajar", "trabajar", "salir del trabajo"]
+mi_lista = []
+input_usuario = ""
+
+while input_usuario != "FIN":
+    input("que mas añadir a la lita (escribe FIN para salir): ")
+    mi_lista.append(input_usuario)
 
 largo_lista = len(mi_lista)   #`len´sirve para saver el largo de una lista
 indice_actual = 0
