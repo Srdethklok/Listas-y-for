@@ -1,8 +1,8 @@
 mi_lista = []
 input_usuario = ""
 
-while input_usuario != "FIN":
-    input("que mas añadir a la lita (escribe FIN para salir): ")
+while input_usuario != "fin":
+    input_usuario = input("que mas añadir a la lita (escribe fin para salir): ")
     mi_lista.append(input_usuario)
 
 largo_lista = len(mi_lista)   #`len´sirve para saver el largo de una lista
